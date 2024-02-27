@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    char lowerCaseLetter, upperCaseLetter;
+    int offset;
+
+    cout << "Please enter a lowercase letter:" << endl;
+    cin >> lowerCaseLetter;
+
+    offset = lowerCaseLetter - 'a';
+    upperCaseLetter = ('A' + offset);
+
+    cout << "The upper case of " << lowerCaseLetter << " is " << upperCaseLetter << endl;
+    return 0;
+}
