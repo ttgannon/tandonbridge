@@ -14,8 +14,8 @@ int main()
     int arr2[10] = {21, 12, 6, 7, 14};
     int arr2Size = 5;
 
-    int arr3[10] = {3, 6, 4, 1, 12};
-    int arr3Size = 5;
+    int arr3[10] = {1, 2, 4, 3, 5, 7, 9};
+    int arr3Size = 7;
 
     reverseArray(arr1, arr1Size);
     printArray(arr1, arr1Size);
